@@ -8,33 +8,33 @@ const Header = () =>{
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PlafiP</title>
-        <link rel="shortcut icon" href="img/iconoP.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/srcimg/iconoP.png" type="image/x-icon">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="./src/css/estilos.css">
     </head>
     
     <body>
     
         <nav class="navbar navbar-expand-md navbar-dark bg-success">
-            <a class="navbar-brand" href="#"><img src="./img/Plafip.png" alt="logo Plafip" height="50px"></a>                
+            <a class="navbar-brand" href="#"><img src="./src/img/Plafip.png" alt="logo Plafip" height="50px"></a>                
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>    
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/iniciarSesion.html">Iniciar Sesión</a>
+                        <a class="nav-link" href="./src/pages/iniciarSesion.html">Iniciar Sesión</a>
                     </li>      
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/registro.html">Registro</a>
+                        <a class="nav-link" href="./src/pages/registro.html">Registro</a>
                     </li>
                 </ul>
             </div>
         </nav>
     <hr>
         <div>
-            <img src="./img/banner 1.jpg" alt="imagen Bienvenida PlafiP" width="100%">
+            <img src="./src/img/banner 1.jpg" alt="imagen Bienvenida PlafiP" width="100%">
         </div>
         
     <hr>
