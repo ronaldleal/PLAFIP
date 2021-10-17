@@ -1,0 +1,21 @@
+th{
+    text-align: center;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: #28A745;
+    color: #fff;
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+footer .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+footer a{
+    color: white;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "plafip",
+  "version": "1.0.0",
+  "description": "desarrollo en react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack --mode production",
+    "start":"webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldleal/PLAFIP.git"
+  },
+  "keywords": [
+    "java",
+    "javaScript",
+    "react"
+  ],
+  "author": "Ronald Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldleal/PLAFIP/issues"
+  },
+  "homepage": "https://github.com/ronaldleal/PLAFIP#readme",
+  "dependencies": {
+    "webpack-cli": "^4.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.4.1",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.46.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
